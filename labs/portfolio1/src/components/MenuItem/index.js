@@ -1,6 +1,8 @@
 import React from 'react'
 import Name from '../MenuName'
 
+//imported MenuName as a new code
+
 export default class MenuItem extends React.Component {
     render() {
         return (

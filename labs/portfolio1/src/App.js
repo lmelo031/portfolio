@@ -12,28 +12,24 @@ function App() {
           itemId: 1,
           itemPrice: "12",
           itemName: "Lasagne",
-          itemCalories: "2000 Calories",
           itemDescription: "Meat and cheese layered between house-made pasta with bell peppers and onions."
         },
         {
           itemId: 2,
           itemPrice: "10",
           itemName: "Cheese Ravioli",
-          itemCalories: "1500 Calories",
           itemDescription: "Cheese-filled ravioli served with house red sauce."
         },
         {
           itemId: 3,
           itemPrice: "14",
           itemName: "Chicken Parmesan",
-          itemCalories: "2560 Calories",
           itemDescription: "Breaded chicken topped with marinara sauce and lots of cheese served over house made spaghetti."
         },
         {
           itemId: 4,
           itemPrice: "15",
           itemName: "Chicken Alfredo",
-          itemCalories: "1450 Calories",
           itemDescription: "Angel hair pasta with alfredo sauce and red peppers."
         },
       ]
