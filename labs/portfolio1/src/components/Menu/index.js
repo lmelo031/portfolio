@@ -13,8 +13,6 @@ export default class Menu extends React.Component {
                         //     <p>{elem.itemPrice}</p>
                         //     <h2>{elem.itemName}</h2>
                         //     <p>{elem.itemDescription}</p>
-                        //     <p>{elem.itemCalories}</p>
-                        //     <button>Add to Cart</button>
                         // </div>
                     )
                     })}

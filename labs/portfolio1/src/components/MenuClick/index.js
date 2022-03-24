@@ -1,9 +1,10 @@
+import React from 'react'
 
 function Clicknote () {
 
     return(
         <button onClick={Clicknote}>
-            Added to reservation
+            <p>Added to Reservation</p>
         </button>
     );
 }

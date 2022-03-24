@@ -1,6 +1,8 @@
 import "./App.css"
 import MenuApp from "./components/MenuApp"
 import Menu from "./components/Menu"
+import MenuClick from "./components/MenuClick"
+import Clicknote from "./components/MenuClick"
 
 function App() {
   let menuData = [
@@ -64,13 +66,14 @@ function App() {
       ]
     }
   ]
-
+  
   return (
     <div className="App">
       <MenuApp data={menuData}></MenuApp>
+      <MenuClick></MenuClick>
     </div>
   );
 }
 
 
-export default App
+export default App;

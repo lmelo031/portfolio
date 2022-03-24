@@ -3,6 +3,7 @@ import Clicknote from '../MenuClick'
 import Name from '../MenuName'
 
 //imported MenuName as a new code
+//imported MenuClick as new code for button
 
 export default class MenuItem extends React.Component {
     render() {
@@ -11,8 +12,6 @@ export default class MenuItem extends React.Component {
                 <p>${this.props.itemPrice}</p>
                 <h2>{this.props.itemName}</h2>
                 <p>{this.props.itemDescription}</p>
-                <p>{this.props.itemCalories}</p>
-                {/* <button>Add to Reserve</button> */}
                 <Clicknote></Clicknote>
                 <Name></Name>
             </div>
